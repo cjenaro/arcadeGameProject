@@ -6,6 +6,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- The Modal -->
+    <div id="lostModal" class="modal">
+
+      <!-- Modal content -->
+      <div id="modalContentId" class="modal-content">
+        <p class="lost-text">
+          You lose!
+        </p>
+      </div>
+
+    </div>
+    
+    <!-- The Modal -->
+    <div id="wonModal" class="modal">
+
+      <!-- Modal content -->
+      <div id="modalContentId" class="modal-content">
+       <button id="restartButton" onClick="restart()">Restart!</button>
+        <p class="lost-text">
+          You win!
+        </p>
+      </div>
+
+    </div>
+    
+    <!-- The Modal -->
+    <div id="charSelectionModal" class="modal">
+
+      <!-- Modal content -->
+      <div id="modalContentId" class="modal-content">
+        <div class="player-selection-container">
+          <img src="images/char-boy.png" alt="boy">
+          <img src="images/char-cat-girl.png" alt="cat-girl">
+          <img src="images/char-princess-girl.png" alt="princess">
+        </div>
+      </div>
+
+    </div>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
